@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MotionSync — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e5e5e5;
+    --card-bg: #fafafa;
+    --accent: #2f5bff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12131a;
+      --fg: #ececec;
+      --muted: #9a9aa5;
+      --border: #2a2b35;
+      --card-bg: #191a23;
+      --accent: #7c9bff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  a.back {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  a.back:hover { color: var(--accent); }
+  h1 {
+    font-size: 1.6rem;
+    margin: 20px 0 4px;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 1.1rem;
+    margin: 36px 0 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 {
+    font-size: 0.98rem;
+    margin: 20px 0 6px;
+  }
+  p, li { color: var(--fg); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../">&larr; All privacy policies</a>
+  <h1>Privacy Policy for MotionSync</h1>
+  <p class="meta">Last Updated: August 22, 2026</p>
+
+  <p>This Privacy Policy explains how MotionSync (hereinafter referred to as the "App") collects, uses, and safeguards the information of its users (hereinafter referred to as "User" or "You"). By downloading and using the App, you agree to the terms outlined in this policy.</p>
+
+  <h2>1. Data Collection and Purpose of Use</h2>
+  <p>MotionSync requests access to specific device features to improve user experience and perform its core functions. However, the App does not collect, store, or sell any of your personal data (name, email, physical address, health data, etc.) on its own servers, nor does it share such data with third parties.</p>
+  <p>The essential permissions and hardware access the App requires to function properly include:</p>
+  <ul>
+    <li><strong>Physical Activity (Activity Recognition):</strong> The App uses the device's activity recognition sensors to detect when the user is in a moving vehicle ("In-Vehicle"). This feature is strictly used to automatically start or stop the visual overlay ("Auto Activation"). This data is processed locally on your device in real-time, is not exported, saved, or transmitted externally, and is absolutely not used for health, medical, or fitness tracking purposes.</li>
+    <li><strong>Draw Over Other Apps (System Alert Window):</strong> This permission is required to draw the visual motion synchronization dots on your screen, which is the core purpose of the App. Your screen is never recorded, captured, or monitored during this process.</li>
+    <li><strong>Foreground Service:</strong> This is used to ensure the vehicle detection assistant and motion overlay can run smoothly and reliably in the background without being killed by the system.</li>
+  </ul>
+
+  <h2>2. Third-Party Services and Libraries</h2>
+  <p>The App integrates trusted third-party services for core functionality, ad serving, in-app purchases, and regulatory compliance. These services may collect certain anonymous device identifiers subject to their own privacy policies:</p>
+  <ul>
+    <li><strong>Google AdMob (Advertising):</strong> The free version of the App uses Google AdMob to serve advertisements. AdMob may collect your device's Advertising ID, cookies, and usage data to provide personalized ads, subject to the consent choices described in Section 7 below. More information: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> — Google's general privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    <li><strong>Google Play Billing:</strong> In-app purchases (e.g., the "Remove Ads" feature) are processed securely directly through the Google Play billing system. Our App does not have access to, nor does it store, any of your payment information or credit card details.</li>
+    <li><strong>Google Play Age Signals API:</strong> To comply with applicable age-verification regulations (including Texas SB 2420), the App uses Google Play's Age Signals API, which may request an approximate age range associated with the Google Play account, where available and only after you grant access through the system-level Google Play prompt. This information is used solely to determine age-appropriate app behavior (such as advertising settings) and is not stored by the App on any external server.</li>
+  </ul>
+
+  <h2>3. Permissions</h2>
+  <p>In addition to the descriptions in Section 1, the following is the technical permission list requested by the App and why:</p>
+  <ul>
+    <li><strong>SYSTEM_ALERT_WINDOW</strong> (Draw over other apps): required to render the motion-sync overlay dots on screen (Section 1).</li>
+    <li><strong>FOREGROUND_SERVICE</strong> / <strong>FOREGROUND_SERVICE_SPECIAL_USE</strong>: required to keep the overlay and vehicle-detection assistant running reliably (Section 1).</li>
+    <li><strong>ACTIVITY_RECOGNITION</strong>: required for automatic "In-Vehicle" detection to auto-start/stop the overlay (Section 1).</li>
+    <li><strong>AD_ID</strong> (Advertising ID): required so Google AdMob can serve and measure advertisements, including personalized ads where you have consented (Section 7).</li>
+  </ul>
+  <p>MotionSync does not request access to your microphone, camera, contacts, location, photos, or files.</p>
+
+  <h2>4. Data Security</h2>
+  <p>Your local preferences and app settings (e.g., selected theme, dot size, speed settings) are stored locally and securely (via SharedPreferences) within your device's memory. This data is never transmitted to any external server. An internet connection is only utilized to load advertisements and verify Google Play purchases.</p>
+
+  <h2>5. Data Retention</h2>
+  <p>Since MotionSync does not operate its own servers and stores no personal data outside your device, there is no server-side retention period for personal data. Your local preferences and settings remain on your device until you clear the app's data or uninstall it. Activity-recognition signals used for auto-activation are processed transiently in real time and are not stored, even locally, beyond the current session. Any anonymous device identifiers collected by AdMob/Google Play (Section 2) are retained according to those providers' own retention periods.</p>
+
+  <h2>6. Children's Privacy</h2>
+  <p>MotionSync is intended for a general audience and does not knowingly collect personal information from children under the age of 13. If it is discovered that a child under 13 has provided personal data (for example, via advertising identifiers), that information will be promptly deleted from the systems (in accordance with the standard procedures of the integrated third-party tools).</p>
+
+  <h2>7. Your Rights and Consent</h2>
+
+  <h3>7.1 EEA, UK, and Switzerland</h3>
+  <p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, the following applies:</p>
+  <ul>
+    <li><strong>Legal basis:</strong> We rely on your consent (obtained via the in-app consent form, provided through Google's User Messaging Platform) for personalized advertising, and on legitimate interest for the App's core functionality (motion overlay, activity detection).</li>
+    <li><strong>Your rights:</strong> You have the right to access, correct, or request deletion of any data processed on your behalf, to object to or restrict processing, to data portability, and to withdraw your consent at any time. You also have the right to lodge a complaint with your local data protection authority.</li>
+    <li><strong>Managing your consent:</strong> You can review or change your advertising consent choices at any time from within the App via Profile → Privacy Settings, or by resetting your consent status through your device's advertising settings.</li>
+    <li><strong>Data processors:</strong> Google (AdMob, User Messaging Platform, Google Play Billing) acts as our data processor for the purposes described in Section 2 of this policy. Google's role and safeguards as a processor are described at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+  </ul>
+
+  <h3>7.2 CCPA/CPRA (California, USA)</h3>
+  <p>If you are a California resident, you have the right to: know what personal information is collected about you; request deletion of personal information; and opt out of the "sale" or "sharing" of personal information (as those terms are defined under CCPA/CPRA). <strong>We do not sell your personal information.</strong> Advertising identifiers may be considered "shared" for cross-context behavioral advertising purposes under CPRA; you can limit this using the ad personalization controls described in Section 7.1, or via Global Privacy Control (GPC) signals where supported.</p>
+
+  <h3>7.3 Other Jurisdictions</h3>
+  <p>If you reside in a jurisdiction with similar data protection laws (e.g., Brazil's LGPD, Canada's PIPEDA), you may have comparable rights. Please contact us using the details in Section 9 to exercise any applicable rights.</p>
+
+  <h2>8. International Data Transfers</h2>
+  <p>Some of the third-party services we use (see Section 2) may process and store data on servers located outside your country of residence, including in the United States. These third parties maintain appropriate safeguards (such as Standard Contractual Clauses, where applicable) to protect your information in accordance with applicable data protection laws.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, our data practices, or the use of MotionSync, please contact us via the developer contact channels provided on the app store (Google Play) or through our support email address.</p>
+
+  <h2>10. Changes to the Privacy Policy</h2>
+  <p>The developer reserves the right to update this Privacy Policy at any time. This page will be updated if there are significant changes to the app's functions or the third-party services used. New policies are effective immediately upon being posted on this page. Users are advised to review this page periodically for any updates.</p>
+
+  <footer>MotionSync Privacy Policy — hosted by Nyvrane.</footer>
+</div>
+</body>
+</html>
