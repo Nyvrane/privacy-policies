@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vibelist — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e5e5e5;
+    --card-bg: #fafafa;
+    --accent: #2f5bff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12131a;
+      --fg: #ececec;
+      --muted: #9a9aa5;
+      --border: #2a2b35;
+      --card-bg: #191a23;
+      --accent: #7c9bff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  a.back {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  a.back:hover { color: var(--accent); }
+  h1 {
+    font-size: 1.6rem;
+    margin: 20px 0 4px;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 1.1rem;
+    margin: 36px 0 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 {
+    font-size: 0.98rem;
+    margin: 20px 0 6px;
+  }
+  p, li { color: var(--fg); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin: 12px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+  }
+  th { background: var(--card-bg); }
+  footer {
+    margin-top: 56px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../">&larr; All privacy policies</a>
+  <h1>Privacy Policy for Vibelist</h1>
+  <p class="meta">Effective Date: August 22, 2026</p>
+
+  <p>Welcome to Vibelist. This Privacy Policy explains how we collect, use, and share information when you use our mobile application ("Vibelist" or the "App"). By using Vibelist, you agree to the collection and use of information in accordance with this policy.</p>
+
+  <h2>1. Information We Collect</h2>
+
+  <h3>1.A Information You Provide Directly</h3>
+  <ul>
+    <li><strong>Mood and Preferences:</strong> When you enter text, select a mood, genre, tempo, or any other atmospheric details to generate a playlist, we process this data locally or via our generative engine to curate your music experience.</li>
+    <li><strong>Voice Input:</strong> Vibelist lets you describe your mood/vibe by voice instead of typing — useful when you're driving or otherwise unable to type. When you use this feature, your speech is processed by your device's speech-to-text service to convert it into text, which is then used the same way as typed input described above. We do not retain a copy of the raw audio after it has been converted to text.</li>
+  </ul>
+
+  <h3>1.B Information Received via Third-Party Services</h3>
+  <p>Vibelist integrates with third-party services that may collect information used to identify you:</p>
+  <ul>
+    <li><strong>Spotify API:</strong> To create and queue playlists, Vibelist requires connection to your Spotify account. We access your Spotify identifying information strictly to authenticate your session, read your profile (e.g., display name, country), and modify your playlists/library on your behalf. We do not store your Spotify username or passwords on our servers.</li>
+    <li><strong>Google Sign-In &amp; Firebase Authentication:</strong> If you choose to sign in with your Google account, we use Firebase Authentication to manage your session. This allows us to identify your account across devices.</li>
+    <li><strong>Firebase Firestore:</strong> We use Firestore to securely sync your cassette balance and playlist history across your devices when you are signed in.</li>
+    <li><strong>Firebase Crashlytics &amp; Analytics:</strong> We use these services to collect crash reports and app usage/diagnostic data to help us find and fix bugs and improve the App.</li>
+    <li><strong>Google Play Age Signals API:</strong> To comply with applicable app store age-verification requirements (such as Texas SB 2420), the App may query Google Play for an age-range signal associated with your Play Store account. This signal is used only to determine age-appropriate access and is not stored on our servers.</li>
+    <li><strong>Google Play Services:</strong> Used for app operations and handling in-app purchases (Vibe Plus) via Google Play Billing.</li>
+    <li><strong>Google AdMob:</strong> We use Google AdMob to serve advertisements. AdMob may collect and use advertising identifiers (such as the Android Advertising ID) and other device information to show relevant ads. Where required by law (e.g., for users in the EEA, UK, and Switzerland), we collect your consent for personalized advertising using Google's User Messaging Platform (UMP) before any such ads are requested. You can review or change your ad privacy choices at any time from the Profile screen in the App.</li>
+  </ul>
+
+  <h3>1.C Automatically Collected Information</h3>
+  <p>The App may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device's unique ID, the IP address of your mobile device, your mobile operating system, and diagnostic data (such as crash logs provided by standard Android services and Firebase Crashlytics).</p>
+
+  <h2>2. How We Use Your Information</h2>
+  <p>We use the collected data for various purposes:</p>
+  <ul>
+    <li>To provide and maintain the core functionalities of Vibelist (e.g., AI-driven playlist generation, voice-to-text mood input).</li>
+    <li>To manage your connection to Spotify securely.</li>
+    <li>To sign you in and sync your data (cassette balance, playlist history) across your devices via Firebase.</li>
+    <li>To process safe in-app purchases (Vibe Plus) via Google Play Billing.</li>
+    <li>To show relevant advertisements (if you are a free user) so we can maintain the app, in accordance with your consent choices.</li>
+    <li>To verify age-appropriate access where required by law.</li>
+    <li>To detect, prevent, and address technical issues or app crashes.</li>
+  </ul>
+
+  <h2>3. Permissions</h2>
+  <p>The following device permissions are requested and are each tied directly to a core feature of the app:</p>
+  <ul>
+    <li><strong>Microphone (RECORD_AUDIO):</strong> required for the voice-input feature described in Section 1.A — describing your mood/vibe by speaking instead of typing (e.g., while driving).</li>
+    <li><strong>Internet (INTERNET) &amp; Network State (ACCESS_NETWORK_STATE):</strong> required to connect to Spotify, sync data via Firebase, process purchases via Google Play Billing, and serve advertisements.</li>
+  </ul>
+  <p>Vibelist does not request access to your contacts, location, camera, photos, files, call logs, or SMS.</p>
+
+  <h2>4. Data Storage and Security</h2>
+  <p>Vibelist is primarily a client-side application. Most of your generated playlists (History) are saved locally on your device using Android's DataStore/Room libraries, with optional cloud sync via Firebase Firestore when you are signed in. We value your trust in providing us with your personal information and strive to use commercially acceptable means to protect it. However, remember that no method of transmission over the internet, or method of electronic storage is 100% secure. Data exchanged with the third-party services described in Section 1.B is transmitted using industry-standard encryption (HTTPS/TLS).</p>
+
+  <h2>5. Third-Party Privacy Policies</h2>
+  <p>Vibelist relies on third-party services, and their use of your data is governed by their respective Privacy Policies:</p>
+  <table>
+    <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+    <tr><td>Spotify</td><td>Playlist creation, queueing, profile authentication</td><td><a href="https://www.spotify.com/us/legal/privacy-policy/">spotify.com/us/legal/privacy-policy</a></td></tr>
+    <tr><td>Google Play Services, Firebase &amp; Google</td><td>Sign-in, sync, crash reporting, analytics, billing, age signals</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Google AdMob &amp; Partner Sites</td><td>Advertising</td><td><a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></td></tr>
+  </table>
+
+  <h2>6. Your Privacy Rights</h2>
+
+  <h3>6.1 Ad Personalization (All Users)</h3>
+  <p>You can review and change your advertising consent preferences at any time from the Profile screen in the App. Regardless of your location, you can also control ad personalization at the device level via <strong>Android Settings → Privacy → Ads → "Delete advertising ID"</strong> or <strong>"Opt out of Ads Personalization."</strong></p>
+
+  <h3>6.2 GDPR (European Economic Area / UK)</h3>
+  <p>If you are located in the EEA or UK, you have the right to: access, correct, or delete your personal data; restrict or object to processing; data portability; and to withdraw consent at any time (including for personalized advertising, via the <strong>Profile screen</strong>) without affecting the lawfulness of processing before withdrawal. You also have the right to lodge a complaint with your local data protection authority.</p>
+
+  <h3>6.3 CCPA/CPRA (California, USA)</h3>
+  <p>If you are a California resident, you have the right to: know what personal information is collected about you; request deletion of personal information; and opt out of the "sale" or "sharing" of personal information (as those terms are defined under CCPA/CPRA). <strong>We do not sell your personal information.</strong> Advertising identifiers may be considered "shared" for cross-context behavioral advertising purposes under CPRA; you can limit this using the ad personalization controls described in Section 6.1, or via Global Privacy Control (GPC) signals where supported.</p>
+
+  <h3>6.4 Other Jurisdictions</h3>
+  <p>If you reside in a jurisdiction with similar data protection laws (e.g., Brazil's LGPD, Canada's PIPEDA), you may have comparable rights. Please contact us using the details in Section 9 to exercise any applicable rights.</p>
+
+  <h3>6.5 Signed-In Account Data</h3>
+  <p>If you signed in with your Google account, you can request access to, correction of, or deletion of the account data we hold (cassette balance, playlist history synced via Firestore) by contacting us at the email address in Section 9. Data associated with third-party services (Google/Firebase, AdMob) can also be managed directly through your Google Account privacy settings at <a href="https://myaccount.google.com/data-and-privacy">myaccount.google.com/data-and-privacy</a>.</p>
+
+  <h2>7. Data Retention</h2>
+  <ul>
+    <li>Locally stored playlist history and settings remain on your device until you delete them or uninstall the app.</li>
+    <li>If you are signed in, your cassette balance and playlist history are retained in Firebase Firestore for as long as your account remains active, so they can sync across your devices. You can request deletion at any time (see Section 6.5).</li>
+    <li>Voice input is converted to text and discarded after conversion — we do not retain a copy of your raw voice recordings.</li>
+    <li>Diagnostic, crash, and analytics data collected by Firebase is retained according to Google/Firebase's standard retention periods, as described in Firebase's own documentation and privacy policy.</li>
+    <li>If you purchase Vibe Plus and later cancel, your entitlement status is retained only as long as necessary to reflect your current access, consistent with Google Play Billing's own data practices.</li>
+  </ul>
+
+  <h2>8. Age Restrictions and Children's Privacy</h2>
+  <p>Vibelist is intended for use by adults and is not directed to children. Use of the App is restricted to users who are 18 years of age or older. We do not knowingly collect personally identifiable information from anyone under the age of 18. If we discover that a person under 18 has provided us with personal information, we will take steps to delete this information from our servers.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+  <p>Email: <a href="mailto:mind1060@gmail.com">mind1060@gmail.com</a></p>
+
+  <h2>10. International Data Transfers</h2>
+  <p>Some of the third-party services we use (see Section 1.B and Section 5) may process and store data on servers located outside your country of residence, including in the United States. These third parties maintain appropriate safeguards (such as Standard Contractual Clauses, where applicable) to protect your information in accordance with applicable data protection laws.</p>
+
+  <h2>11. Changes to This Privacy Policy</h2>
+  <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by publishing the new Privacy Policy on this page. These changes are effective immediately after they are posted.</p>
+
+  <footer>Vibelist Privacy Policy — hosted by Nyvrane.</footer>
+</div>
+</body>
+</html>
